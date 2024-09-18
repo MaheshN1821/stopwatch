@@ -1,0 +1,91 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.playwrite-gb-s-newFont {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+}
+
+.btntxt {
+  font-weight: 400;
+  font-family: "Playwrite GB S", cursive;
+}
+
+.timeCont {
+  width: 315px;
+  height: 370px;
+  margin-left: 126px;
+  backdrop-filter: blur(20px);
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.time {
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.205);
+  font-size: 3rem;
+  margin: 10px;
+  height: 100px;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100px;
+  border: none;
+  padding: 6px;
+  font-size: 1.1rem;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lap {
+  height: 110px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+.lap h3 {
+  margin: 0;
+  text-align: center;
+  font-family: "Playwrite GB S", cursive;
+}
+
+.lap ul {
+  margin: 10px 0 0 0;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.349);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555555be;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #121212de;
+}
+
+@media screen and (max-width: 578px) {
+  .timeCont {
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+}
