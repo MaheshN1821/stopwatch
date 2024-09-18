@@ -65,6 +65,8 @@
 
 .lap ul {
   margin: 10px 0 0 0;
+  list-style: none;
+  font-weight: 800;
 }
 
 ::-webkit-scrollbar {
