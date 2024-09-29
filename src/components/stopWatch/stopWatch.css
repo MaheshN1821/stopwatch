@@ -64,7 +64,7 @@
 }
 
 .lap ul {
-  margin: 10px 0 0 0;
+  margin: 10px 0 0 -12px;
   list-style: none;
   font-weight: 800;
 }
@@ -89,5 +89,25 @@
   .timeCont {
     margin-left: 10px;
     margin-right: 0px;
+    height: 404px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .timeCont {
+    height: 404px;
+  }
+  .lap {
+    height: 136px;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .timeCont {
+    width: 348px;
+    height: 408px;
+  }
+  .lap {
+    height: 140px;
   }
 }
